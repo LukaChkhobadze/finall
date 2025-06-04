@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code 42 - რეგისტრაცია</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Owl Carousel CSS -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+   <!-- jQuery -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <!-- Owl Carousel JS -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header>
+  <!-- ////////////////// -->
+
+
+ <div class="header1">
+    
+    <a href="index.html"><img class="logo" src="./img/saboloologomainremovebg.png" alt="logo"> </a>
+
+    <div class="user-menu-wrapper">
+        <i id="userIcon" class="fas fa-user-circle"></i>
+        <div class="user-dropdown" id="userDropdown">
+            <a href="login.html">Login</a>
+            <a href="registration.html">Register</a>
+        </div>
+    </div>
+</div>
+    </header>
+    <div class="code42-register-wrapper">
+        <div class="code42-register-box">
+            <h2 class="code42-register-title">რეგისტრაცია</h2>
+            <form class="code42-register-form">
+                <div class="code42-input-group">
+                    <label for="fullname">სრული სახელი</label>
+                    <input type="text" id="fullname" placeholder="მაგ: ლუკა ჩხობაძე">
+                </div>
+                <div class="code42-input-group">
+                    <label for="email">ელ. ფოსტა</label>
+                    <input type="email" id="email" placeholder="მაგ: example@gmail.com">
+                </div>
+                <div class="code42-input-group">
+                    <label for="username">მომხმარებელი</label>
+                    <input type="text" id="username" placeholder="შეიყვანე სახელი">
+                </div>
+                <div class="code42-input-group">
+                    <label for="password">პაროლი</label>
+                    <input type="password" id="password" placeholder="შეიყვანე პაროლი">
+                </div>
+                <div class="code42-input-group">
+                    <label id="confirm-password">გაიმეორე პაროლი</label>
+                    <input type="password" id="confirm_password" placeholder="გაიმეორე პაროლი">
+                </div>
+                <p class="code42-register-button" id="submit">დარეგისტრირება</p>
+                <p class="code42-login-link">უკვე გაქვს ანგარიში? <a href="login.html">შესვლა</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="js/password_values.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
